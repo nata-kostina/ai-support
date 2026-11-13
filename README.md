@@ -4,6 +4,10 @@ AI Customer Support is an email assistant for Harbor & Pine, a fictional home an
 
 The decision logic is split on purpose. LLM agents read the email and propose a section, a draft, and an issue. Deterministic Python in `app/ai/rules.py` and `app/ai/decide.py` makes the final call on whether the bot may reply, which next step applies, and when a human must take over.
 
+## Demo
+
+![App Demo](./demo.gif)
+
 ## Key Features
 
 * **Gmail Polling:** Picks up new inbox messages on a fixed interval and replies inside the same thread.
