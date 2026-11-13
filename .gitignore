@@ -13,3 +13,5 @@ wheels/
 credentials.json
 node_modules/
 dashboard/dist/
+
+CLAUDE.md
